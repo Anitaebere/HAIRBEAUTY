@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Site</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+   <header class="header1">
+        <div class="nav"> 
+            <div class="location">
+                <i style="background: transparent;" class="fa-solid fa-location-dot"></i>
+                <p>NO17 ugo Street Meniru, Agbani Road,E nugu Nigeria</p>
+            </div>
+
+            <div class="location">
+                <i class="fa-solid fa-envelope"></i>
+                <p>nwankwoebereanita53@gmail.com</p>
+            </div>
+    
+
+            <div class="about-icon">
+                <P>About</P>
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+        </div>
+
+        <div class="header">
+            <div class="div">
+                <h2><i>AnitaBaby's <span>Beauty</span> Store</i></h2>
+            </div>
+
+            <i class="fa-solid fa-bars" onclick="showMenu()" id="menu"></i>
+
+            <div class="btn">
+                <a href="#home"><button>Home</button></a>
+                <a href="#about"><button>About</button></a>
+                <a href="#service"><button>Services</button></a>
+                <a href="#work"><button>Work</button></a>
+                <a href="#contact"><button>Contact</button></a>
+            </div>
+        
+        </div>
+   </header>
+
+    <div class="btn1">
+        <i class="fa fa-times" onclick="removeSideMenu()" id="side-menu"></i>
+        <a href="#home"><button>Home</button></a>
+        <a href="#about"><button>About</button></a>
+        <a href="#service"><button>Services</button></a>
+        <a href="#work"><button>Work</button></a>
+        <a href="#contact"><button>Contact</button></a>
+
+        <div class="contact" style="color: white;">
+            <p>Call anytime <br>
+            +234 0806 5599 653 </p>
+        </div>
+    </div>
+
+    <section class="home" id="home">
+       <div class="content">
+           <div>
+               <h1>ENHANCE YOUR NATURAL<span>BEAUTY..</span> </h1>
+               <h3>
+                The beauty of every woman is everything to her and that starts 
+                from the neatness of her hair and how it makes her look so gorgeous...
+                That can be assured in our beauty store.
+              </h3>
+              <h3 id="num" style="display: none;">+234 0806 5599 653</h3>
+              <button onclick="showmore4()">Contact Us</button>
+           </div>
+
+           <img src="/images/salon1-removebg-preview.png" alt="">
+       </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-content">
+            <img src="/images/salon-removebg-preview.png" alt="" height="500px">
+            <div>
+                <div class="sub-header">
+                    <p>ABOUT US</p>
+                    <div></div>
+               </div>
+               <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, sapiente, repudiandae corporis commodi nesciunt eaque aspernatur voluptatem neque dicta fugit debitis adipisci perferendis, voluptate incidunt! Quas atque laudantium magnam minima.
+               </p>
+                <p>
+                    Anita Baby's Beauty Strore is where different styles of 
+                    hair are done.we cna plait any style you want,just walk down to 
+                    our salon and watch us perform magic on your hair..
+                </p>
+                <p id="more" style="display: none;">
+                    Here,we treat our customers with equal love,Our Services 
+                    are very affordable and yet we give you what you asked for,
+                    we have comfortable chairs to help keep you stable to avoid 
+                    body pain or any unstable situation. 
+                </p>
+                <button onclick="showmore()">Read More</button>
+            </div>
+        </div>   
+    </section>
+
+    <div class="center">
+        <h1>Our Services</h1>
+    </div>
+    <section class="service" id="service">
+        
+        <div class="service-content">
+            <h2>Braids</h2>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur 
+                adipisicing elit. Provident fuga suscipit 
+                commodi, esse necessitatibus eveniet!
+            </p>
+            <p id="more1" style="display: none;">Our braids are amazing that you'll need to check out,
+                we also do natural hair twist, ghana weaving,styling natural hair etc.
+            </p>
+            <button onclick="showmore1()">Read More</button>
+        </div>
+
+        <div class="service-content">
+            <h2>Wig Installation</h2>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur 
+                adipisicing elit. Provident fuga suscipit 
+                commodi, esse necessitatibus eveniet!
+            </p>
+            <P id="more2" style="display: none;">
+                Different type and styles of hairs are beign installed here:long,short,frontals etc to 
+                attend different occasions such as:weddings both as the bride 
+                and a guest, parties etc 
+            </P>
+            <button onclick="showmore2()">Read More</button>
+        </div>
+
+        <div class="service-content">
+            <h2>Make-up & Nails</h2>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur 
+                adipisicing elit. Provident fuga suscipit 
+                commodi, esse necessitatibus eveniet!
+            </p>
+            <p id="more3" style="display: none;">
+                we've got experienced and amazing artist for you natural make-up and nail 
+                painting,we fix both short and long nails as well as making beautyful ladies
+                up for their weddings,birthday or any occassions. 
+            </p>
+            <button onclick="showmore3()">Read More</button>
+        </div>
+    </section>
+
+    
+    <section class="work" id="work">
+        <div class="center" style="color: white;">
+            <h1 style="color: white;">Our Latest work</h1>
+            <p>Pls Click, react and comment on your Favourite Style</p>
+        </div>
+       <div class="work1">
+           
+        <div class="work-content">
+            <img src="/images/style4.jpg" alt="">
+            <div class="work-note">
+                <h2>Be Beautiful</h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing
+                    elit. Earum corrupti repellat enim. Porro magnam iure
+                    natus accusantium quam. Necessitatibus eveniet unde debitis.
+                </p>
+                <div class="heart">
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-solid fa-thumbs-up" id="thumbs"></i>
+                </div>
+                <div>
+                    <input type="text" placeholder="comment here...">
+                </div>
+            </div>
+        </div>
+
+        <div class="work-content">
+            <img src="/images/style3.jpg" alt="">
+            <div class="work-note">
+                <h2>Be Beautiful</h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing
+                    elit. Earum corrupti repellat enim. Porro magnam iure
+                    natus accusantium quam. Necessitatibus eveniet unde debitis.
+                </p>
+                <div class="heart">
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-solid fa-thumbs-up" id="thumbs"></i>
+                </div>
+                <div>
+                  <input type="text" placeholder="comment here...">
+                </div>
+            </div>
+        </div>
+
+        <div class="work-content">
+            <img src="/images/style2.jpg" alt="">
+            <div class="work-note">
+                <h2>Be Beautiful</h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing
+                    elit. Earum corrupti repellat enim. Porro magnam iure
+                    natus accusantium quam. Necessitatibus eveniet unde debitis.
+                </p>
+                <div class="heart">
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-solid fa-thumbs-up" id="thumbs"></i>
+                </div>
+                <div>
+                    <input type="text" placeholder="comment here...">
+                </div>
+            </div>
+        </div>
+
+        <div class="work-content">
+            <img src="/images/style1.jpg" alt="">
+            <div class="work-note">
+                <h2>Be Beautiful</h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing
+                    elit. Earum corrupti repellat enim. Porro magnam iure
+                    natus accusantium quam. Necessitatibus eveniet unde debitis.
+                </p>
+                <div class="heart">
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-solid fa-thumbs-up" id="thumbs"></i>
+                </div>
+                <div>
+                    <input type="text" placeholder="comment here...">
+                </div>
+            </div>
+        </div>
+
+        <div class="work-content">
+            <img src="/images/style5.jpg" alt="">
+            <div class="work-note">
+                <h2>Be Beautiful</h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing
+                    elit. Earum corrupti repellat enim. Porro magnam iure
+                    natus accusantium quam. Necessitatibus eveniet unde debitis.
+                </p>
+                <div class="heart">
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-solid fa-thumbs-up" id="thumbs"></i>
+                </div>
+                <div>
+                    <input type="text" placeholder="comment here...">
+                </div>
+            </div>
+        </div>
+
+        <div class="work-content">
+            <img src="/images/style6.jpg" alt="">
+            <div class="work-note">
+                <h2>Be Beautiful</h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing
+                    elit. Earum corrupti repellat enim. Porro magnam iure
+                    natus accusantium quam. Necessitatibus eveniet unde debitis.
+                </p>
+                <div class="heart">
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-solid fa-thumbs-up" id="thumbs"></i>
+                </div>
+                <div>
+                    <input type="text" placeholder="comment here...">
+                </div>
+            </div>
+        </div>
+
+        <div class="work-content">
+            <img src="/images/style7.jpg" alt="">
+            <div class="work-note">
+                <h2>Be Beautiful</h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing
+                    elit. Earum corrupti repellat enim. Porro magnam iure
+                    natus accusantium quam. Necessitatibus eveniet unde debitis.
+                </p>
+                <div class="heart">
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-solid fa-thumbs-up" id="thumbs"></i>
+                </div>
+                <div>
+                    <input type="text" placeholder="comment here...">
+                </div>
+            </div>
+        </div>
+
+        <div class="work-content">
+            <img src="/images/style8.jpg" alt="">
+            <div class="work-note">
+                <h2>Be Beautiful</h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing
+                    elit. Earum corrupti repellat enim. Porro magnam iure
+                    natus accusantium quam. Necessitatibus eveniet unde debitis.
+                </p>
+                <div class="heart">
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-solid fa-thumbs-up" id="thumbs"></i>
+                </div>
+                <div>
+                    <input type="text" placeholder="comment here...">
+                </div>
+            </div>
+        </div>
+
+        <div class="work-content">
+            <img src="/images/style9.jpg" alt="">
+            <div class="work-note">
+                <h2>Be Beautiful</h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing
+                    elit. Earum corrupti repellat enim. Porro magnam iure
+                    natus accusantium quam. Necessitatibus eveniet unde debitis.
+                </p>
+                <div class="heart">
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-solid fa-thumbs-up" id="thumbs"></i>
+                </div>
+                <div>
+                    <input type="text" placeholder="comment here...">
+                </div>
+            </div>
+        </div>
+
+        <div class="work-content">
+            <img src="/images/style10.jpg" alt="">
+            <div class="work-note">
+                <h2>Be Beautiful</h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing
+                    elit. Earum corrupti repellat enim. Porro magnam iure
+                    natus accusantium quam. Necessitatibus eveniet unde debitis.
+                </p>
+                <div class="heart">
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-solid fa-thumbs-up" id="thumbs"></i>
+                </div>
+                <div>
+                    <input type="text" placeholder="comment here...">
+                </div>
+            </div>
+        </div>
+
+        <div class="work-content">
+            <img src="/images/style11.jpg" alt="">
+            <div class="work-note">
+                <h2>Be Beautiful</h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing
+                    elit. Earum corrupti repellat enim. Porro magnam iure
+                    natus accusantium quam. Necessitatibus eveniet unde debitis.
+                </p>
+                <div class="heart">
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-solid fa-thumbs-up" id="thumbs"></i>
+                </div>
+                <div>
+                    <input type="text" placeholder="comment here...">
+                </div>
+            </div>
+        </div>
+
+        <div class="work-content">
+            <img src="/images/style12.jpg" alt="">
+            <div class="work-note">
+                <h2>Be Beautiful</h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing
+                    elit. Earum corrupti repellat enim. Porro magnam iure
+                    natus accusantium quam. Necessitatibus eveniet unde debitis.
+                </p>
+                <div class="heart">
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-solid fa-thumbs-up" id="thumbs"></i>
+                </div>
+                <div>
+                    <input type="text" placeholder="comment here...">
+                </div>
+            </div>
+        </div>
+       </div>
+    </section>
+
+    <section class="contact1" id="contact">
+        <form action="" id="client-information">
+            <div class="center">
+                <h1>CONTACT US</h1>
+                <p>Book An Online Appointment With us</p>
+            </div>
+            <div class="form1">
+                <input type="text" id="name" name="name" placeholder="Customer Name:" required> 
+                <input type="number" id="phone" name="phone"  placeholder="Mobile Number:" required><br>
+            </div>
+            
+            <div class="form1">
+                <input type="text" id="style" name="style" placeholder="Hair Style:" required>
+                <input type="date" id="date" name="date" placeholder="Appointment Date" width="45%" required>
+            </div>
+            <textarea name="" id="" cols="50" rows="15" placeholder="Write in your thoughts here..."></textarea> <br>
+            <button>Send In</button>
+        </form>
+
+    </section>
+    <footer>
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by Anita's Beauty Store | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-icon">
+            <a href="#home"><i class="fa-solid fa-arrow-up" id="footer-arrow"></i></a>
+        </div>
+    </footer>
+
+    <script src="./js/icon.js"></script>
+    <script src="./js/code.js"></script>
+</body>
+</html>
